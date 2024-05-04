@@ -19,3 +19,10 @@
 - API Gateway: `http://localhost:8080`
 
 ## How to run
+1. Clone the repository
+2. Go to respective services and run `npm install`
+3. Run `node start` in each directory to start the services
+4. Go to the `api-gateway` directory and run `npm install`
+5. Run `node start` to start the API Gateway
+6. You can now interact with the services through the API Gateway
+7. Make sure all your services are up and running
