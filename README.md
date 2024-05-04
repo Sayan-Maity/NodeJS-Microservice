@@ -18,6 +18,14 @@
 - Orders Service: `http://localhost:3003`
 - API Gateway: `http://localhost:8080`
 
+## Working
+- If client wants to interact with `User Service`, then it has to send request to this endpoint
+  - `http://localhost:8080/user/api/{user-service-endpoint-name}`
+- If client wants to interact with `Book Service`, then it has to send request to this endpoint
+  - `http://localhost:8080/book/api/{book-service-endpoint-name}`
+- If client wants to interact with `Order Service`, then it has to send request to this endpoint
+  - `http://localhost:8080/order/api/{order-service-endpoint-name}`
+
 ## How to run
 1. Clone the repository
 2. Go to respective services and run `npm install`
